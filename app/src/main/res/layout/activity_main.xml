@@ -28,8 +28,7 @@
         android:layout_height="wrap_content"
         android:text="Hitung"
         android:textColor="@color/colorWhite"
-        android:background="@drawable/btn_hitung"
-        android:layout_marginTop="10dp"/>
+        android:background="@drawable/btn_hitung"/>
 
     <TextView
         android:id="@+id/hasil"
@@ -54,7 +53,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/button"
-        android:layout_marginTop="40dp"/>
+        android:layout_marginTop="20dp"/>
 
     <EditText
         android:id="@+id/lebar"
@@ -75,11 +74,9 @@
         android:layout_below="@+id/hasilpp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:text="Hitung Persegi"
         android:background="@drawable/btn_hitung"
-        android:textColor="@color/colorWhite"
-        android:layout_marginBottom="20dp"/>
+        android:textColor="@color/colorWhite"/>
 
     <Button
         android:id="@+id/logout"

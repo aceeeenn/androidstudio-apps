@@ -121,8 +121,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
                 if (email != null && password !=null){
 
-                 final SharedPreferences sesdata = PreferenceManager.
-                     getDefaultSharedPreferences(MainActivity.this);
+                 final SharedPreferences sesdata = PreferenceManager
+                     .getDefaultSharedPreferences(MainActivity.this);
                  SharedPreferences.Editor lds = sesdata.edit();
                  lds.clear();
                  lds.commit();

@@ -39,7 +39,7 @@ public class MainContact extends AppCompatActivity {
         vor = new VolleyObjectResult() {
             @Override
             public void resSuccess(String requestType, JSONObject response) {
-                Toast.makeText(MainContact.this, response.toString(), Toast.LENGTH_LONG).show();
+        //        Toast.makeText(MainContact.this, response.toString(), Toast.LENGTH_LONG).show();
 
                 try {
                     JSONArray jsonArray = response.getJSONArray("values");

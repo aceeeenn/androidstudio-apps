@@ -26,12 +26,13 @@ public class Update extends AppCompatActivity {
     VolleyObjectResult volleyObjectResult, vor = null;
     VolleyObjectService volleyObjectService, vos;
     Fungsi fungsi = new Fungsi();
-    String url = "/update";
+    String url = "192.168.43.171/kontak";
     JSONObject data = null;
 
     EditText nama, email, alamat, nohp, uid;
     String _nama, _email, _alamat, _nohp, _uid;
     Button _update, _delete;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,10 +65,7 @@ public class Update extends AppCompatActivity {
             alamat.setText(getIntent().getStringExtra("alamat"));
             nohp.setText(getIntent().getStringExtra("nohp"));
             uid.setText(getIntent().getStringExtra("id"));
-
-
         }
-
 
         _update = (Button)findViewById(R.id.btn_update);
         _update.setOnClickListener(new View.OnClickListener() {
@@ -91,7 +89,6 @@ public class Update extends AppCompatActivity {
                     @Override
                     public void resSuccess(String requestType, JSONObject response) {
 
-
                         try {
                             String message = response.getString("message");
 
@@ -112,7 +109,7 @@ public class Update extends AppCompatActivity {
                     }
                 };
                 volleyObjectService = new VolleyObjectService(volleyObjectResult, Update.this);
-                volleyObjectService.postJsonObject("POSTCALL", fungsi.url() + url +'/'+ _uid, data);
+                volleyObjectService.postJsonObject("POSTCALL", fungsi.url() + "/update/"+ _uid, data);
 
             }
         });
@@ -126,7 +123,6 @@ public class Update extends AppCompatActivity {
                 vor = new VolleyObjectResult() {
                     @Override
                     public void resSuccess(String requestType, JSONObject response) {
-
 
                         try {
                             String message = response.getString("message");
@@ -150,11 +146,7 @@ public class Update extends AppCompatActivity {
                 vos = new VolleyObjectService(vor, Update.this);
                 vos.postJsonObject("GET", fungsi.url() +"/delete/"+ _uid, data);
 
-
             }
         });
-
-
     }
-
 }
