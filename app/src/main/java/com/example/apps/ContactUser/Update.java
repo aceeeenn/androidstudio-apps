@@ -26,7 +26,7 @@ public class Update extends AppCompatActivity {
     VolleyObjectResult volleyObjectResult, vor = null;
     VolleyObjectService volleyObjectService, vos;
     Fungsi fungsi = new Fungsi();
-    String url = "192.168.43.171/kontak";
+    String url = "/update";
     JSONObject data = null;
 
     EditText nama, email, alamat, nohp, uid;

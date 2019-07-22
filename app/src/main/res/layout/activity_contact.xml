@@ -70,8 +70,6 @@
                 android:text="Ada masalah dengan aplikasi ini ? silahkan hubungi kami dengan form berikut :"
                 android:textSize="12sp"/>
 
-
-
             <android.support.v7.widget.CardView
                 android:theme="@style/TextLabel"
                 android:layout_width="match_parent"

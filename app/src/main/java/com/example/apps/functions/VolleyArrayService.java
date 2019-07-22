@@ -12,12 +12,16 @@ import com.android.volley.toolbox.Volley;
 
 import org.json.JSONArray;
 
+/**
+ * Created by kangyasin on 11/1/17.
+ */
+
 public class VolleyArrayService {
 
-    id.co.bspguard.android.pmmapps.functions.VolleyArrayResult volleyArrayResult = null;
+    VolleyArrayResult volleyArrayResult = null;
     Context context;
 
-    public VolleyArrayService(id.co.bspguard.android.pmmapps.functions.VolleyArrayResult volleyArrayResult, Context context) {
+    public VolleyArrayService(VolleyArrayResult volleyArrayResult, Context context) {
         this.context = context;
         this.volleyArrayResult = volleyArrayResult;
     }

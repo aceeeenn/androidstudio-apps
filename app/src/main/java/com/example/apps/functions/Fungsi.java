@@ -36,7 +36,7 @@ public class Fungsi {
     }
 
     public String url(){
-        String url = "http://192.168.43.171/pmm-api/public/kontak";
+        String url = "http://c82a9a38.ngrok.io/kontak";
         return url;
     }
 

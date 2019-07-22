@@ -60,11 +60,9 @@ public class Insert extends AppCompatActivity {
                 dt.put("nohp", nohp);
                 final JSONObject data = new JSONObject(dt);
 
-
                 vor = new VolleyObjectResult() {
                     @Override
                     public void resSuccess(String requestType, JSONObject response) {
-
 
                         try {
                             String message = response.getString("message");
@@ -86,7 +84,6 @@ public class Insert extends AppCompatActivity {
                 vos.postJsonObject("POSTCALL", fungsi.url() + url, data);
             }
         });
-
 
     }
 }

@@ -19,7 +19,7 @@ import org.json.JSONObject;
 public class VolleyObjectService {
 
     VolleyObjectResult volleyObjectResult = null;
-    id.co.bspguard.android.pmmapps.functions.VolleyArrayResult volleyArrayResult = null;
+    VolleyArrayResult volleyArrayResult = null;
     Context context;
 
     public VolleyObjectService(VolleyObjectResult volleyObjectResult, Context context) {

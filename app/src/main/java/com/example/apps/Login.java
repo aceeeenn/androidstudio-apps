@@ -12,13 +12,27 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
+
+import com.android.volley.VolleyError;
+import com.example.apps.functions.Fungsi;
+import com.example.apps.functions.VolleyObjectResult;
+import com.example.apps.functions.VolleyObjectService;
 
 import org.json.JSONObject;
+
+import java.util.HashMap;
 
 public class Login extends AppCompatActivity {
     RelativeLayout rellay;
     EditText _emailText, _passwordText;
     Button _loginButton;
+
+    VolleyObjectResult volleyObjectResult, vor = null;
+    VolleyObjectService volleyObjectService, vos;
+    Fungsi fungsi = new Fungsi();
+    String url = "/dologin";
+    JSONObject data = null;
 
     Handler handler = new Handler();
     Runnable runnable = new Runnable() {
@@ -59,41 +73,64 @@ public class Login extends AppCompatActivity {
             return;
         }
 
-        _loginButton.setEnabled(false);
+//        _loginButton.setEnabled(false);
 
         new android.os.Handler().postDelayed(
-                new Runnable() {
-                    @Override
-                    public void run() {
-                        String hasemail = "aku@kamu.com";
-                        String haspassword = "140456";
-                        String email = _emailText.getText().toString();
-                        String password = _passwordText.getText().toString();
+            new Runnable() {
+                @Override
+                public void run() {
+//                    String hasemail = "aku@kamu.com";
+//                    String haspassword = "140456";
+                    final String email = _emailText.getText().toString();
+                    final String password = _passwordText.getText().toString();
 
-                        try{
-                            if(email.equals(hasemail) && password.equals(haspassword) ){
-                                onLooginSuccess();
+                    HashMap<String, String> dt = new HashMap<String, String>();
+                    dt.put("email", email);
+                    dt.put("password", password);
 
+                    final JSONObject data = new JSONObject(dt);
+                    vor = new VolleyObjectResult() {
 
+                      @Override
+                      public void resSuccess(String requestType, JSONObject response) {
+                         try{
+                       // String error = response.getString("error");
+                            if (email.equals(email) && password.equals(password)) {
+                                onLoginSuccess();
                                 SharedPreferences prefs = PreferenceManager
-                                        .getDefaultSharedPreferences(Login.this);
+                                    .getDefaultSharedPreferences(Login.this);
                                 SharedPreferences.Editor lds = prefs.edit();
                                 lds.putString("email", email);
                                 lds.putString("password", password);
                                 lds.commit();
-
-
+//email.equals(email) && password.equals(password)
                                 Intent intent = new Intent(Login.this, MainActivity.class);
                                 startActivity(intent);
                             }else{
                                 onLoginFailed();
+
                             }
-                        } catch (Exception e) {
-                            onLoginFailed();
-                            e.printStackTrace();
-                        }
+                              //  mail.equals(email) && password.equals(password)
+//                                String message = response.getString("message");
+//                                Intent intent = new Intent(Login.this, MainActivity.class);
+//                                startActivity(intent);
+//                                Toast.makeText(Login.this,message, Toast.LENGTH_LONG).show();
+                        }catch (Exception e){
+                        e.printStackTrace();
+                       // Toast.makeText(Login.this, "Terjadi kesalahan !!", Toast.LENGTH_LONG).show();
                     }
-                }, 3000L);
+                    }
+
+                    @Override
+                    public void resError(String requestType, VolleyError error) {
+
+                    }
+                    };
+
+                    vos = new VolleyObjectService(vor, Login.this);
+                    vos.postJsonObject("POSTCALL", fungsi.url() + url, data);
+                }
+            }, 3000L);
     }
 
     public boolean validate(){
@@ -122,7 +159,7 @@ public class Login extends AppCompatActivity {
         _loginButton.setEnabled(true);
     }
 
-    public void onLooginSuccess(){
+    public void onLoginSuccess(){
         _loginButton.setEnabled(true);
         finish();
     }
