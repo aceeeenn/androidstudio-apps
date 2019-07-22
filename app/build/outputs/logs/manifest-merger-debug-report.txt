@@ -1,0 +1,520 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\021942bd206af39a3989473d3aa67c29\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9885dc12539c9fdc26c791dfcd19dc95\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\60fa7741bbbb2e7a5a2f5eefbb8a82d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\33eb1ee5455c7f58b77865a5c809bf5a\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\438e1e62843a605ddb73da013e18f4bd\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cd9b9c492f40b623b3e3fec86d092daa\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:17:1-65:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6bd28a8b87732eda931fadd7a6d57dac\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\8e99cac2ea0a55e16da84f96f5bf3067\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ca9fc851e930ec79753de1526f8d465c\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\142b1222f14fe7fa848c42a6a9117ce9\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\714e352ee28cb9019a51f43d7a3dc5a4\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f705cbc3087865d13108fd761bd1d2eb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d76056dfe6f426766145ed184adb6e82\AndroidManifest.xml:2:1-7:12
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e1222aca7015637e041baa10d33174a2\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ce8bc377afce81691deba80c27ef88c6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d19e98ef9f2f7a3d354fb466e982faab\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f09bb5b237942572a2eb93e9b1f8aa78\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\20f71af8a06a6b37465960aee1224259\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\322bf42265045d789bc59a2d08fc15a5\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6618725a226875bb945f153ff0cf34cb\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\852da46c00bb3ac6f3da1883d754a811\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\bf376aaf2084cc75398fccf81e09abf3\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\2c99b543c301652350d1e6f2b4303fd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1e787d8bf89618f02f8b8db110a994bd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b395d22a0052d2e9c3dbd7c943cffe0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d7fa339f010bd689975d14065c84e5fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5b9612b75a6b46f24e2845182ce7bfaa\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\285947ac227f03e6b8639dbe1a62af48\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\81a3c9e55ebd8a7ac3f3553f9f837844\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6720e2f767d4305afe7dc9e119c49e6e\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\b217de61151062fff49ab29bf9881a51\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\494b35ba98050ba05ccf6e52655f8ade\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\fdff82303dc3b1033f351825a954ad5c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3015a3a60296d9225bdbc5dc88742029\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ae79ca16a10a225494b6452bd2a08124\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\da74accff68829dd59bd14c2024786ef\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1b16a80795c8f432e24124fa2b59eaa4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a4fa0f131f266ea9d28fc731493ca1df\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9e9395688cf50fbabb76570495811b2c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a75c112be36bca68e7edd1e3e1c0be1b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\7999145f53ebd411bc87e4deda402496\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:2:1-9:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+	package
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:3:5-31
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-36:12
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:5:5-7:38
+	android:maxSdkVersion
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:7:9-35
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:6:9-55
+application
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:9:5-34:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:22:5-36:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\33eb1ee5455c7f58b77865a5c809bf5a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\33eb1ee5455c7f58b77865a5c809bf5a\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\438e1e62843a605ddb73da013e18f4bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\438e1e62843a605ddb73da013e18f4bd\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cd9b9c492f40b623b3e3fec86d092daa\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cd9b9c492f40b623b3e3fec86d092daa\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:34:5-63:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6bd28a8b87732eda931fadd7a6d57dac\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6bd28a8b87732eda931fadd7a6d57dac\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\8e99cac2ea0a55e16da84f96f5bf3067\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\8e99cac2ea0a55e16da84f96f5bf3067\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ca9fc851e930ec79753de1526f8d465c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ca9fc851e930ec79753de1526f8d465c\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\142b1222f14fe7fa848c42a6a9117ce9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\142b1222f14fe7fa848c42a6a9117ce9\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\714e352ee28cb9019a51f43d7a3dc5a4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\714e352ee28cb9019a51f43d7a3dc5a4\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e1222aca7015637e041baa10d33174a2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e1222aca7015637e041baa10d33174a2\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\b217de61151062fff49ab29bf9881a51\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\b217de61151062fff49ab29bf9881a51\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:7:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:14:9-35
+	android:label
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:12:9-29
+	android:roundIcon
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:13:9-56
+	android:icon
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:11:9-45
+	android:allowBackup
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:10:9-35
+	android:theme
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.apps.functions.loginapi
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:9-65
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:19-53
+activity#com.example.apps.functions.home_booking
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:17:9-60
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:17:19-57
+activity#com.example.apps.ContactUser.MainContact
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:9-61
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:19-58
+activity#com.example.apps.ContactUser.Update
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:9-56
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:19-53
+activity#com.example.apps.ContactUser.Insert
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:9-56
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:19-53
+activity#com.example.apps.Login
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:9-43
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:19-40
+activity#com.example.apps.SplashScreen
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:22:9-30:20
+	android:theme
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:24:13-63
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:23:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:28:27-74
+activity#com.example.apps.Hasil
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:31:9-43
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:31:19-40
+activity#com.example.apps.Contact
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:32:9-45
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:32:19-42
+activity#com.example.apps.MainActivity
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:33:9-50
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:33:19-47
+uses-sdk
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\021942bd206af39a3989473d3aa67c29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\021942bd206af39a3989473d3aa67c29\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9885dc12539c9fdc26c791dfcd19dc95\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9885dc12539c9fdc26c791dfcd19dc95\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\60fa7741bbbb2e7a5a2f5eefbb8a82d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\60fa7741bbbb2e7a5a2f5eefbb8a82d6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\33eb1ee5455c7f58b77865a5c809bf5a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\33eb1ee5455c7f58b77865a5c809bf5a\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\438e1e62843a605ddb73da013e18f4bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\438e1e62843a605ddb73da013e18f4bd\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cd9b9c492f40b623b3e3fec86d092daa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cd9b9c492f40b623b3e3fec86d092daa\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6bd28a8b87732eda931fadd7a6d57dac\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6bd28a8b87732eda931fadd7a6d57dac\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\8e99cac2ea0a55e16da84f96f5bf3067\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\8e99cac2ea0a55e16da84f96f5bf3067\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ca9fc851e930ec79753de1526f8d465c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ca9fc851e930ec79753de1526f8d465c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\142b1222f14fe7fa848c42a6a9117ce9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\142b1222f14fe7fa848c42a6a9117ce9\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\714e352ee28cb9019a51f43d7a3dc5a4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\714e352ee28cb9019a51f43d7a3dc5a4\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f705cbc3087865d13108fd761bd1d2eb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f705cbc3087865d13108fd761bd1d2eb\AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d76056dfe6f426766145ed184adb6e82\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d76056dfe6f426766145ed184adb6e82\AndroidManifest.xml:5:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e1222aca7015637e041baa10d33174a2\AndroidManifest.xml:7:5-43
+MERGED from [com.android.volley:volley:1.1.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e1222aca7015637e041baa10d33174a2\AndroidManifest.xml:7:5-43
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ce8bc377afce81691deba80c27ef88c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ce8bc377afce81691deba80c27ef88c6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d19e98ef9f2f7a3d354fb466e982faab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d19e98ef9f2f7a3d354fb466e982faab\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f09bb5b237942572a2eb93e9b1f8aa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\f09bb5b237942572a2eb93e9b1f8aa78\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\20f71af8a06a6b37465960aee1224259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\20f71af8a06a6b37465960aee1224259\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\322bf42265045d789bc59a2d08fc15a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\322bf42265045d789bc59a2d08fc15a5\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6618725a226875bb945f153ff0cf34cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6618725a226875bb945f153ff0cf34cb\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\852da46c00bb3ac6f3da1883d754a811\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\852da46c00bb3ac6f3da1883d754a811\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\bf376aaf2084cc75398fccf81e09abf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\bf376aaf2084cc75398fccf81e09abf3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\2c99b543c301652350d1e6f2b4303fd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\2c99b543c301652350d1e6f2b4303fd6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1e787d8bf89618f02f8b8db110a994bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1e787d8bf89618f02f8b8db110a994bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b395d22a0052d2e9c3dbd7c943cffe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b395d22a0052d2e9c3dbd7c943cffe0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d7fa339f010bd689975d14065c84e5fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d7fa339f010bd689975d14065c84e5fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5b9612b75a6b46f24e2845182ce7bfaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5b9612b75a6b46f24e2845182ce7bfaa\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\285947ac227f03e6b8639dbe1a62af48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\285947ac227f03e6b8639dbe1a62af48\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\81a3c9e55ebd8a7ac3f3553f9f837844\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\81a3c9e55ebd8a7ac3f3553f9f837844\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6720e2f767d4305afe7dc9e119c49e6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6720e2f767d4305afe7dc9e119c49e6e\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4534eb146686c3ac7d08c094a34a63e6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\b217de61151062fff49ab29bf9881a51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\b217de61151062fff49ab29bf9881a51\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\494b35ba98050ba05ccf6e52655f8ade\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\494b35ba98050ba05ccf6e52655f8ade\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\fdff82303dc3b1033f351825a954ad5c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\fdff82303dc3b1033f351825a954ad5c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3015a3a60296d9225bdbc5dc88742029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3015a3a60296d9225bdbc5dc88742029\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ae79ca16a10a225494b6452bd2a08124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ae79ca16a10a225494b6452bd2a08124\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\da74accff68829dd59bd14c2024786ef\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\da74accff68829dd59bd14c2024786ef\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1b16a80795c8f432e24124fa2b59eaa4\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\1b16a80795c8f432e24124fa2b59eaa4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a4fa0f131f266ea9d28fc731493ca1df\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a4fa0f131f266ea9d28fc731493ca1df\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9e9395688cf50fbabb76570495811b2c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\9e9395688cf50fbabb76570495811b2c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a75c112be36bca68e7edd1e3e1c0be1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a75c112be36bca68e7edd1e3e1c0be1b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\7999145f53ebd411bc87e4deda402496\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\7999145f53ebd411bc87e4deda402496\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:5:5-44
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:23:9-29:75
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:25:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:27:13-48
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:26:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:28:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:29:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:24:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:31:9-35:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:35:9-39:19
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:35:9-39:19
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:31:18-89
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\ea050231aa5d2eefaa6ab60ce74fde02\AndroidManifest.xml:33:17-109
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:22:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\02ad7d95e71de9989a1989c75303c660\AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d3717cce7751b84a8a2613be127428c2\AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\61cf3023529dd8ccb4b1b13dfc09d509\AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:26:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:29:9-63
+permission#com.example.apps.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:28:5-30:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:30:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:29:9-63
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:32:22-76
+uses-permission#com.example.apps.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:32:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:32:22-76
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:37:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:41:9-50:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:43:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:44:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:42:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:45:13-49:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:com.example.apps
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:45:13-49:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:46:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:46:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:48:27-58
+category#com.example.apps
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:48:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:48:27-58
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:56:9-62:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:58:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:57:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:59:13-61:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:59:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:60:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:16.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\c30b72e14da7e6604c3a105651840fa1\AndroidManifest.xml:60:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\e80e93870d5d0d148589bd1b75d23ea9\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\3b7b2eead1c04741cd822210b3499335\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:15.0.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\5dd7ed5c40839c34a024e2fcc087061e\AndroidManifest.xml:24:13-58
