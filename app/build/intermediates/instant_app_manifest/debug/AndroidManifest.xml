@@ -34,8 +34,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.apps.functions.loginapi" />
-        <activity android:name="com.example.apps.functions.home_booking" />
+        <activity android:name="com.example.apps.booking.MainBooking" />
         <activity android:name="com.example.apps.ContactUser.MainContact" />
         <activity android:name="com.example.apps.ContactUser.Update" />
         <activity android:name="com.example.apps.ContactUser.Insert" />

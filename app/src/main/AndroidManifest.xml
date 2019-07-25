@@ -13,8 +13,7 @@
         android:roundIcon="@drawable/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".functions.loginapi"></activity>
-        <activity android:name=".functions.home_booking" />
+        <activity android:name=".booking.MainBooking"></activity>
         <activity android:name=".ContactUser.MainContact" />
         <activity android:name=".ContactUser.Update" />
         <activity android:name=".ContactUser.Insert" />

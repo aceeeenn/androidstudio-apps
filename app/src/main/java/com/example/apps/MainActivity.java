@@ -91,6 +91,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         signout = (Button) findViewById(R.id.logout);
         signout.setOnClickListener(this);
 
+        add_contact.setOnClickListener(this);
+
     }
 
     public Double rumus (Double alas, Double tinggi){

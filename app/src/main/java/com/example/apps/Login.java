@@ -15,6 +15,7 @@ import android.widget.RelativeLayout;
 import android.widget.Toast;
 
 import com.android.volley.VolleyError;
+import com.example.apps.booking.MainBooking;
 import com.example.apps.functions.Fungsi;
 import com.example.apps.functions.VolleyObjectResult;
 import com.example.apps.functions.VolleyObjectService;
@@ -116,7 +117,8 @@ public class Login extends AppCompatActivity {
 //                                startActivity(intent);
 //                                Toast.makeText(Login.this,message, Toast.LENGTH_LONG).show();
                         }catch (Exception e){
-                        e.printStackTrace();
+                             onLoginFailed();
+                             e.printStackTrace();
                        // Toast.makeText(Login.this, "Terjadi kesalahan !!", Toast.LENGTH_LONG).show();
                     }
                     }

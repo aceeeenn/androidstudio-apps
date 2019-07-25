@@ -1,8 +1,6 @@
 package com.example.apps.ContactUser;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
+
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,10 +16,7 @@ import com.example.apps.functions.VolleyObjectResult;
 import com.example.apps.functions.VolleyObjectService;
 
 import org.json.JSONObject;
-
-import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class Insert extends AppCompatActivity {
 
@@ -60,9 +55,11 @@ public class Insert extends AppCompatActivity {
                 dt.put("nohp", nohp);
                 final JSONObject data = new JSONObject(dt);
 
+
                 vor = new VolleyObjectResult() {
                     @Override
                     public void resSuccess(String requestType, JSONObject response) {
+
 
                         try {
                             String message = response.getString("message");
@@ -84,7 +81,5 @@ public class Insert extends AppCompatActivity {
                 vos.postJsonObject("POSTCALL", fungsi.url() + url, data);
             }
         });
-
     }
 }
-

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/lapangan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Lapangan"
+        android:textSize="16dp"
+        android:textFontWeight="2"
+        android:textStyle="bold"
+        android:textColor="@color/blacktext"
+        android:layout_marginBottom="10dp"/>
+
+
+    <TextView
+        android:id="@+id/alamat"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/lapangan"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:textSize="10dp"
+        android:textColor="@color/darkGray"
+        android:text="Alamat"/>
+
+    <TextView
+        android:id="@+id/nohp"
+        android:paddingLeft="5dp"
+        android:layout_below="@+id/alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:textColor="@color/blacktext"
+        android:text="No Hp"
+        android:layout_marginBottom="10dp"/>
+
+</RelativeLayout>
