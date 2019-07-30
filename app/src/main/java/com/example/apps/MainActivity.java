@@ -16,10 +16,12 @@ import android.widget.Toast;
 
 import com.example.apps.ContactUser.Insert;
 import com.example.apps.ContactUser.MainContact;
+import com.example.apps.booking.MainBooking;
+
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    Button hitung, go_contact, hitung1, signout, add_contact;
+    Button hitung, go_contact, hitung1, signout, add_contact, booking;
     EditText alas, tinggi, panjang, lebar;
     TextView hasil, hasilpp;
 
@@ -40,6 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         hasilpp = (TextView) findViewById(R.id.hasilpp);
         signout = (Button) findViewById(R.id.logout);
         add_contact = (Button) findViewById(R.id.add_contact);
+        booking = (Button) findViewById(R.id.booking);
 
         hitung.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -93,6 +96,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         add_contact.setOnClickListener(this);
 
+        booking = (Button) findViewById(R.id.booking);
+        booking.setOnClickListener(this);
+
     }
 
     public Double rumus (Double alas, Double tinggi){
@@ -107,7 +113,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
-        switch (v.getId()){
+        switch (v.getId()) {
             case R.id.contact:
                 Intent goContact = new Intent(MainActivity.this, MainContact.class);
                 goContact.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
@@ -121,24 +127,29 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 String password = prefs.getString("password", null);
                 Log.d("debug", "email:" + email + "password" + password);
 
-                if (email != null && password !=null){
+                if (email != null && password != null) {
 
-                 final SharedPreferences sesdata = PreferenceManager
-                     .getDefaultSharedPreferences(MainActivity.this);
-                 SharedPreferences.Editor lds = sesdata.edit();
-                 lds.clear();
-                 lds.commit();
+                    final SharedPreferences sesdata = PreferenceManager
+                        .getDefaultSharedPreferences(MainActivity.this);
+                    SharedPreferences.Editor lds = sesdata.edit();
+                    lds.clear();
+                    lds.commit();
 
-                 Intent intentLogin = new Intent(MainActivity.this, Login.class);
-                 intentLogin.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                 intentLogin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
-                 MainActivity.this.startActivity(intentLogin);
-            }
-            break;
+                    Intent intentLogin = new Intent(MainActivity.this, Login.class);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    MainActivity.this.startActivity(intentLogin);
+                }
+                break;
             case R.id.add_contact:
                 Intent addContact = new Intent(MainActivity.this, Insert.class);
                 addContact.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 MainActivity.this.startActivity(addContact);
+                break;
+            case R.id.booking:
+                Intent go_booking = new Intent(MainActivity.this, MainBooking.class);
+                go_booking.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainActivity.this.startActivity(go_booking);
                 break;
             default:
                 break;

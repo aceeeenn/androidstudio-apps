@@ -36,7 +36,7 @@ public class Fungsi {
     }
 
     public String url(){
-        String url = "http://2900b921.ngrok.io/kontak";
+        String url = "http://a23e29bf.ngrok.io/kontak";
         return url;
     }
 

@@ -120,7 +120,6 @@
                 android:layout_marginBottom="24dp"
                 android:padding="12dp"
                 android:background="@drawable/rounded"
-
                 android:text="Kirim"/>
 
         </LinearLayout>
