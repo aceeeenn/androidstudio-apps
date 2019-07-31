@@ -55,6 +55,7 @@ public class ViewBooking extends AppCompatActivity {
                         JSONObject object =  jsonArray.getJSONObject(i);
                         ContactDataSetBooking nds = new ContactDataSetBooking();
                         nds.setLapangan(object.getString("lapangan"));
+                        nds.setHarga(object.getString("harga"));
                         nds.setAlamat(object.getString("alamat"));
                         nds.setNohp(object.getString("nohp"));
                         nds.setId(object.getString("id"));
@@ -75,7 +76,7 @@ public class ViewBooking extends AppCompatActivity {
             }
         };
         vos = new VolleyObjectService(vor, ViewBooking.this);
-        vos.getJsonObject("GETCALL", fungsi.url());
+        vos.getJsonObject("GETCALL", fungsi.urlbooking());
 
     }
 }

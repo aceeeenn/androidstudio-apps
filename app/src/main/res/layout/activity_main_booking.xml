@@ -98,10 +98,10 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/update"
+                        android:id="@+id/view"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:background="@drawable/update"/>
+                        android:background="@drawable/view"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -109,7 +109,7 @@
                         android:textSize="18sp"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/bgsplash"
-                        android:text="Update"/>
+                        android:text="View"/>
 
                 </LinearLayout>
 
@@ -133,10 +133,10 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/view"
+                        android:id="@+id/tim"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:background="@drawable/view"/>
+                        android:background="@drawable/tim"/>
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -144,7 +144,7 @@
                         android:textSize="18sp"
                         android:layout_marginTop="12dp"
                         android:textColor="@color/bgsplash"
-                        android:text="View"/>
+                        android:text="Tim"/>
 
                 </LinearLayout>
 

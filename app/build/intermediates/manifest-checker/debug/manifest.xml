@@ -33,8 +33,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.apps.booking.ActivityTeam" />
         <activity android:name="com.example.apps.booking.UpdateBooking" />
         <activity android:name="com.example.apps.booking.InsertBooking" />
+        <activity android:name="com.example.apps.booking.MainTim" />
         <activity android:name="com.example.apps.booking.ViewBooking" />
         <activity android:name="com.example.apps.booking.MainBooking" />
         <activity android:name="com.example.apps.ContactUser.MainContact" />

@@ -39,7 +39,7 @@ public class MainBooking extends AppCompatActivity {
     private ContactAdapterBooking contactAdapterBooking;
     JSONObject data = null;
 
-    Button logout, view;
+    Button logout, update, view, booking_, tim;
 
 
     @Override
@@ -48,7 +48,9 @@ public class MainBooking extends AppCompatActivity {
         setContentView(R.layout.activity_main_booking);
         listlapangan = (ListView) findViewById(R.id.listlapangan);
 
+        booking_ = (Button) findViewById(R.id.booking_);
         logout = (Button) findViewById(R.id.logout);
+        tim = (Button) findViewById(R.id.tim);
         view = (Button) findViewById(R.id.view);
 
         listlapangan = (ListView) findViewById(R.id.listlapangan);
@@ -87,6 +89,35 @@ public class MainBooking extends AppCompatActivity {
             }
         });
 
+        booking_.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent insertbooking = new Intent(MainBooking.this, InsertBooking.class);
+                insertbooking.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainBooking.this.startActivity(insertbooking);
+
+            }
+        });
+
+//        update.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent updatebooking = new Intent(MainBooking.this, ViewBooking.class);
+//                updatebooking.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                MainBooking.this.startActivity(updatebooking);
+//
+//            }
+//        });
+
+        tim.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent tim = new Intent(MainBooking.this, ActivityTeam.class);
+                tim.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                startActivity(tim);
+
+            }
+        });
 
     }
 }

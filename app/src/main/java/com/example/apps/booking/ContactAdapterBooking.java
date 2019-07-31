@@ -60,25 +60,25 @@ public class ContactAdapterBooking extends BaseAdapter {
         TextView lapangan = (TextView) convertView.findViewById(R.id.lapangan);
         TextView alamat = (TextView) convertView.findViewById(R.id.alamat);
         TextView nohp = (TextView) convertView.findViewById(R.id.nohp);
-//        TextView tanggal = (TextView) convertView.findViewById(R.id.tanggal);
+        TextView harga = (TextView) convertView.findViewById(R.id.harga);
 //        Spinner jam = (Spinner) convertView.findViewById(R.id.jam);
 
         final ContactDataSetBooking mds = list.get(position);
         lapangan.setText(mds.getLapangan());
         alamat.setText(mds.getAlamat());
         nohp.setText(mds.getNohp());
+        harga.setText(mds.getHarga());
 
         convertView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent iSlider = new Intent(activity, Update.class);
+                Intent iSlider = new Intent(activity, UpdateBooking.class);
                 Bundle extras = new Bundle();
                 extras.putString("id", list.get(position).getId());
                 extras.putString("lapangan",  list.get(position).getLapangan());
-                extras.putString("jam",  list.get(position).getJam());
+                extras.putString("harga",  list.get(position).getHarga());
                 extras.putString("alamat",  list.get(position).getAlamat());
                 extras.putString("nohp",  list.get(position).getNohp());
-                extras.putString("tanggal",  list.get(position).getTanggal());
                 iSlider.putExtras(extras);
                 activity.startActivity(iSlider);
             }

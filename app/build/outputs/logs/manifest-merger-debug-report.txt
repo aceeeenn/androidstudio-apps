@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\021942bd206af39a3989473d3aa67c29\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:gridlayout-v7:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\cda69c34ff2d5f30a6e9f25dd139cada\AndroidManifest.xml:17:1-22:12
@@ -58,20 +58,20 @@ MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Acen\.gradle\caches
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\a75c112be36bca68e7edd1e3e1c0be1b\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\7999145f53ebd411bc87e4deda402496\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\6f8caee789c1b645cbad6884fbeb5609\AndroidManifest.xml:2:1-9:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
-INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:3:5-31
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-38:12
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:2:11-69
@@ -82,7 +82,7 @@ ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:6:9-55
 application
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:9:5-36:19
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:9:5-38:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\4bd9b2d928537469807448d083f80943\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Acen\.gradle\caches\transforms-2\files-2.1\d5e6d23a6c57baacb923654210c9c494\AndroidManifest.xml:9:5-20
@@ -141,66 +141,74 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.2] C:\Us
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:10:9-35
 	android:theme
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:15:9-40
-activity#com.example.apps.booking.UpdateBooking
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:9-68
+activity#com.example.apps.booking.ActivityTeam
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:9-67
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:19-56
-activity#com.example.apps.booking.InsertBooking
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:16:19-55
+activity#com.example.apps.booking.UpdateBooking
 ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:17:9-59
 	android:name
 		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:17:19-56
+activity#com.example.apps.booking.InsertBooking
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:9-59
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:19-56
+activity#com.example.apps.booking.MainTim
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:9-53
+	android:name
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:19-50
 activity#com.example.apps.booking.ViewBooking
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:9-57
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:9-57
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:18:19-54
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:19-54
 activity#com.example.apps.booking.MainBooking
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:9-57
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:9-57
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:19:19-54
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:19-54
 activity#com.example.apps.ContactUser.MainContact
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:9-61
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:22:9-61
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:20:19-58
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:22:19-58
 activity#com.example.apps.ContactUser.Update
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:9-56
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:23:9-56
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:21:19-53
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:23:19-53
 activity#com.example.apps.ContactUser.Insert
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:22:9-56
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:24:9-56
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:22:19-53
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:24:19-53
 activity#com.example.apps.Login
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:23:9-43
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:25:9-43
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:23:19-40
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:25:19-40
 activity#com.example.apps.SplashScreen
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:24:9-32:20
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:26:9-34:20
 	android:theme
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:26:13-63
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:28:13-63
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:25:13-41
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:27:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:27:13-31:29
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:29:13-33:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:28:17-69
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:30:17-69
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:28:25-66
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:30:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:30:17-77
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:32:17-77
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:30:27-74
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:32:27-74
 activity#com.example.apps.Hasil
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:33:9-43
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:35:9-43
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:33:19-40
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:35:19-40
 activity#com.example.apps.Contact
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:34:9-45
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:36:9-45
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:34:19-42
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:36:19-42
 activity#com.example.apps.MainActivity
-ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:35:9-50
+ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:37:9-50
 	android:name
-		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:35:19-47
+		ADDED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml:37:19-47
 uses-sdk
 INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Acen\AndroidStudioProjects\apps\app\src\main\AndroidManifest.xml

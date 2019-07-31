@@ -13,8 +13,10 @@
         android:roundIcon="@drawable/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".booking.UpdateBooking"></activity>
+        <activity android:name=".booking.ActivityTeam"></activity>
+        <activity android:name=".booking.UpdateBooking" />
         <activity android:name=".booking.InsertBooking" />
+        <activity android:name=".booking.MainTim" />
         <activity android:name=".booking.ViewBooking" />
         <activity android:name=".booking.MainBooking" />
         <activity android:name=".ContactUser.MainContact" />

@@ -4,19 +4,18 @@ import java.util.Date;
 
 public class ContactDataSetBooking {
 
-    String id, lapangan, alamat, nohp, jam, tanggal;
+    String id, lapangan, alamat, nohp, harga;
 
 
+    public ContactDataSetBooking() {
+    }
 
-    public ContactDataSetBooking (){}
-
-    public ContactDataSetBooking(String id, String lapangan, String alamat, String nohp, String tanggal) {
+    public ContactDataSetBooking(String id, String lapangan, String alamat, String nohp, String harga) {
         this.id = id;
         this.lapangan = lapangan;
         this.alamat = alamat;
         this.nohp = nohp;
-        this.tanggal = tanggal;
-        this.jam = jam;
+        this.harga = harga;
     }
 
     public String getId() {
@@ -51,20 +50,12 @@ public class ContactDataSetBooking {
         this.nohp = nohp;
     }
 
-    public String getTanggal() {
-        return tanggal;
+    public String getHarga() {
+        return harga;
     }
 
-    public void setTanggal(String tanggal) {
-        this.tanggal = tanggal;
-    }
-
-    public String getJam() {
-        return jam;
-    }
-
-    public void setJam(String jam) {
-        this.jam = jam;
+    public void setHarga(String harga) {
+        this.harga = harga;
     }
 
 }

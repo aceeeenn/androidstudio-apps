@@ -1053,11 +1053,15 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable acen
+drawable adit
+drawable asep
 drawable avd_hide_password
 drawable avd_show_password
 drawable bg
 drawable btn_bg
 drawable btn_hitung
+drawable cecep
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -1077,6 +1081,7 @@ drawable common_google_signin_btn_text_light
 drawable common_google_signin_btn_text_light_focused
 drawable common_google_signin_btn_text_light_normal
 drawable common_google_signin_btn_text_light_normal_background
+drawable dachi
 drawable delete
 drawable design_bottom_navigation_item_background
 drawable design_fab_background
@@ -1100,6 +1105,7 @@ drawable ic_plankton
 drawable kalender
 drawable like
 drawable logo
+drawable logo_tim
 drawable logout
 drawable mail
 drawable mtrl_snackbar_background
@@ -1137,6 +1143,7 @@ id FUNCTION
 id META
 id SHIFT
 id SYM
+id acen
 id action0
 id action_bar
 id action_bar_activity_content
@@ -1159,6 +1166,7 @@ id actions
 id activity_chooser_view_content
 id add
 id add_contact
+id adit
 id adjust_height
 id adjust_width
 id alamat
@@ -1168,6 +1176,7 @@ id alignBounds
 id alignMargins
 id all
 id always
+id asep
 id async
 id auto
 id barrier
@@ -1184,6 +1193,7 @@ id button
 id button1
 id buttonPanel
 id cancel_action
+id cecep
 id center
 id center_horizontal
 id center_vertical
@@ -1201,6 +1211,7 @@ id coordinator
 id coordinator1
 id custom
 id customPanel
+id dachi
 id dark
 id decor_content_parent
 id default_activity_button
@@ -1230,9 +1241,11 @@ id fm_login
 id forever
 id formcontact
 id ghost_view
+id gl
 id gone
 id group_divider
 id groups
+id harga
 id hasil
 id hasilalas
 id hasilhitung
@@ -1251,9 +1264,11 @@ id icon_group
 id icon_only
 id iemail
 id ifRoom
+id iharga
 id image
 id img_logo
 id inama
+id inamalapangan
 id info
 id inohp
 id inputplafon
@@ -1378,6 +1393,7 @@ id text_input_password_toggle
 id textinput_counter
 id textinput_error
 id textinput_helper_text
+id tim
 id time
 id tinggi
 id title
@@ -1393,13 +1409,14 @@ id transition_scene_layoutid_cache
 id transition_transform
 id ualamat
 id uemail
+id uharga
 id uid
 id unama
+id unamalapangan
 id uniform
 id unlabeled
 id unohp
 id up
-id update
 id useLogo
 id valuealas
 id valuehasil
@@ -1473,6 +1490,8 @@ layout activity_main
 layout activity_main_booking
 layout activity_main_contact
 layout activity_splash_screen
+layout activity_team
+layout activity_tim
 layout activity_update
 layout activity_update_booking
 layout design_bottom_navigation_item
