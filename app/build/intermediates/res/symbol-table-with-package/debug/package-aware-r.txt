@@ -1174,6 +1174,7 @@ id barrier
 id beginning
 id blocking
 id booking
+id booking_
 id bottom
 id btn_delete
 id btn_login
@@ -1398,6 +1399,7 @@ id uniform
 id unlabeled
 id unohp
 id up
+id update
 id useLogo
 id valuealas
 id valuehasil
@@ -1406,6 +1408,7 @@ id valuelebar
 id valuepanjang
 id valuetinggi
 id vertical
+id view
 id view_offset_helper
 id visible
 id wide
@@ -1464,12 +1467,14 @@ layout activity_booking
 layout activity_contact
 layout activity_hasil
 layout activity_insert
+layout activity_insert_booking
 layout activity_login
 layout activity_main
 layout activity_main_booking
 layout activity_main_contact
 layout activity_splash_screen
 layout activity_update
+layout activity_update_booking
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar

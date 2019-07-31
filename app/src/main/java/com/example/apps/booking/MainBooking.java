@@ -1,17 +1,21 @@
 package com.example.apps.booking;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
-import android.widget.Toast;
+import android.widget.Switch;
 
 import com.android.volley.VolleyError;
 import com.example.apps.ContactUser.ContactAdapter;
 import com.example.apps.ContactUser.ContactDataSet;
-import com.example.apps.Hasil;
+import com.example.apps.ContactUser.MainContact;
+import com.example.apps.Login;
 import com.example.apps.MainActivity;
 import com.example.apps.R;
 import com.example.apps.functions.Fungsi;
@@ -24,12 +28,8 @@ import org.json.JSONObject;
 import java.util.ArrayList;
 import java.util.List;
 
-import static android.icu.lang.UCharacter.GraphemeClusterBreak.V;
-
 
 public class MainBooking extends AppCompatActivity {
-
-    Button booking, logout;
 
     private ListView listlapangan;
     VolleyObjectResult volleyObjectResult, vor = null;
@@ -39,48 +39,54 @@ public class MainBooking extends AppCompatActivity {
     private ContactAdapterBooking contactAdapterBooking;
     JSONObject data = null;
 
+    Button logout, view;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_booking);
-
-        booking = (Button) findViewById(R.id.booking);
-        logout = (Button) findViewById(R.id.logout);
         listlapangan = (ListView) findViewById(R.id.listlapangan);
 
-        vor = new VolleyObjectResult() {
-            @Override
-            public void resSuccess(String requestType, JSONObject response) {
-                //        Toast.makeText(MainContact.this, response.toString(), Toast.LENGTH_LONG).show();
+        logout = (Button) findViewById(R.id.logout);
+        view = (Button) findViewById(R.id.view);
 
-                try {
-                    JSONArray jsonArray = response.getJSONArray("values");
-                    for (int i=0; i<jsonArray.length(); i++) {
-                        JSONObject object =  jsonArray.getJSONObject(i);
-                        ContactDataSetBooking nds = new ContactDataSetBooking();
-                        nds.setLapangan(object.getString("lapangan"));
-//                        nds.setEmail(object.getString("email"));
-                        nds.setAlamat(object.getString("alamat"));
-                        nds.setNohp(object.getString("nohp"));
-                        nds.setId(object.getString("id"));
-                        list.add(nds);
-                    }
-                    contactAdapterBooking = new ContactAdapterBooking(MainBooking.this, list);
-                    contactAdapterBooking.notifyDataSetChanged();
-                    listlapangan.setAdapter(contactAdapterBooking);
-                } catch (Exception e) {
-                    e.printStackTrace();
+        listlapangan = (ListView) findViewById(R.id.listlapangan);
+
+        logout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(MainBooking.this);
+                String email = prefs.getString("email", null);
+                String password = prefs.getString("password", null);
+                Log.d("debug", "email:" + email + "password" + password);
+
+                if (email != null && password != null) {
+
+                    final SharedPreferences sesdata = PreferenceManager
+                        .getDefaultSharedPreferences(MainBooking.this);
+                    SharedPreferences.Editor lds = sesdata.edit();
+                    lds.clear();
+                    lds.commit();
+
+                    Intent intentLogin = new Intent(MainBooking.this, Login.class);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                    intentLogin.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
+                    MainBooking.this.startActivity(intentLogin);
                 }
             }
-            @Override
-            public void resError(String requestType, VolleyError error) {
-                View view = findViewById(R.id.coordinator);
-                String message = "Maaf data kontak tidak ditemukan.";
-            }
-        };
-        vos = new VolleyObjectService(vor, MainBooking.this);
-        vos.getJsonObject("GETCALL", fungsi.url());
-    }
-};
+        });
 
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent viewbooking = new Intent(MainBooking.this, ViewBooking.class);
+                viewbooking.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                MainBooking.this.startActivity(viewbooking);
+
+            }
+        });
+
+
+    }
+}

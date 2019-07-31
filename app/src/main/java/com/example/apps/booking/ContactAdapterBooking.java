@@ -56,14 +56,12 @@ public class ContactAdapterBooking extends BaseAdapter {
         if (inflater == null)
             inflater = (LayoutInflater) activity.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         if (convertView == null)
-            convertView = inflater.inflate(R.layout.list_row_contact, null);
+            convertView = inflater.inflate(R.layout.list_row_lapangan, null);
         TextView lapangan = (TextView) convertView.findViewById(R.id.lapangan);
         TextView alamat = (TextView) convertView.findViewById(R.id.alamat);
         TextView nohp = (TextView) convertView.findViewById(R.id.nohp);
 //        TextView tanggal = (TextView) convertView.findViewById(R.id.tanggal);
 //        Spinner jam = (Spinner) convertView.findViewById(R.id.jam);
-
-
 
         final ContactDataSetBooking mds = list.get(position);
         lapangan.setText(mds.getLapangan());

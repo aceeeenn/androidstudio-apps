@@ -80,12 +80,12 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_scrubber_control_off_mtrl_alpha.png.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-hdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
@@ -96,20 +96,20 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
         "source": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_design_ic_visibility.png.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable-hdpi-v4\\design_ic_visibility.png"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable_pin.png.flat",
         "source": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\src\\main\\res\\drawable\\pin.png"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4_abc_ic_menu_share_mtrl_alpha.png.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_scrubber_track_mtrl_alpha.9.png.flat",
@@ -120,12 +120,12 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable_abc_edit_text_material.xml.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_popup_background_mtrl_mult.9.png.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-hdpi-v4\\abc_popup_background_mtrl_mult.9.png"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldrtl-xxxhdpi-v17_abc_ic_menu_cut_mtrl_alpha.png.flat",
@@ -156,12 +156,12 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\852da46c00bb3ac6f3da1883d754a811\\res\\layout\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_notification_template_big_media_narrow_custom.xml.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\852da46c00bb3ac6f3da1883d754a811\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_notification_bg_low_normal.9.png.flat",
@@ -176,12 +176,12 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\layout\\mtrl_layout_snackbar_include.xml"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_design_text_input_password_icon.xml.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_mtrl_layout_snackbar_include.xml.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\layout\\mtrl_layout_snackbar_include.xml"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\color_design_tint_password_toggle.xml.flat",
@@ -304,12 +304,12 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\e80e93870d5d0d148589bd1b75d23ea9\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4534eb146686c3ac7d08c094a34a63e6\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\e80e93870d5d0d148589bd1b75d23ea9\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
@@ -328,12 +328,12 @@
         "source": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
-        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable-v21\\design_password_eye.xml"
-    },
-    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_abc_popup_menu_item_layout.xml.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21_design_password_eye.xml.flat",
+        "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
@@ -1364,6 +1364,10 @@
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_update_booking.xml.flat",
+        "source": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\src\\main\\res\\layout\\activity_update_booking.xml"
+    },
+    {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable_navigation_empty_icon.xml.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\4bd9b2d928537469807448d083f80943\\res\\drawable\\navigation_empty_icon.xml"
     },
@@ -1818,6 +1822,10 @@
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "C:\\Users\\Acen\\.gradle\\caches\\transforms-2\\files-2.1\\021942bd206af39a3989473d3aa67c29\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_insert_booking.xml.flat",
+        "source": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\src\\main\\res\\layout\\activity_insert_booking.xml"
     },
     {
         "merged": "C:\\Users\\Acen\\AndroidStudioProjects\\apps\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21_notification_template_icon_group.xml.flat",
